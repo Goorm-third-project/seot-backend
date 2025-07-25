@@ -5,7 +5,7 @@ import com.example.backend.domain.post.dto.PostResponse;
 import com.example.backend.domain.post.dto.PostUpdateRequest;
 
 import com.example.backend.domain.post.service.PostService;
-import com.example.backend.domain.security.adapter.CustomUserDetails;
+import com.example.backend.domain.auth.security.CustomUserDetails;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import lombok.RequiredArgsConstructor;

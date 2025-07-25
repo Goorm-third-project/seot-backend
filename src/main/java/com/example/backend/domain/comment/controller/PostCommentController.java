@@ -3,7 +3,7 @@ package com.example.backend.domain.comment.controller;
 import com.example.backend.domain.comment.dto.CommentCreateRequest;
 import com.example.backend.domain.comment.dto.CommentResponse;
 import com.example.backend.domain.comment.service.CommentService;
-import com.example.backend.domain.security.adapter.CustomUserDetails;
+import com.example.backend.domain.auth.security.CustomUserDetails;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import lombok.RequiredArgsConstructor;

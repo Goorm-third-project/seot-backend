@@ -1,4 +1,4 @@
-package com.example.backend.domain.security.adapter;
+package com.example.backend.domain.auth.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
