@@ -6,10 +6,10 @@ import com.example.backend.domain.member.repository.MemberRepository;
 import com.example.backend.domain.post.dto.PostCreateRequest;
 import com.example.backend.domain.post.dto.PostResponse;
 import com.example.backend.domain.post.dto.PostUpdateRequest;
-import com.example.backend.domain.post.entity.Post;
 import com.example.backend.domain.post.entity.PostMedia;
 import com.example.backend.domain.post.repository.PostMediaRepository;
 import com.example.backend.domain.post.repository.PostRepository;
+import com.example.backend.domain.post.service.command.PostCommandService;
 import com.example.backend.domain.store.entity.Store;
 import com.example.backend.domain.store.repository.StoreRepository;
 import com.example.backend.support.annotation.ServiceTest;
@@ -31,10 +31,10 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyString;
 
 @ServiceTest
-public class PostServiceTest {
+public class PostCommandServiceTest {
 
     @Autowired
-    PostService postService;
+    PostCommandService postService;
     @Autowired
     PostRepository postRepository;
     @Autowired

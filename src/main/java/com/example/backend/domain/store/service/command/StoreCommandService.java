@@ -4,9 +4,11 @@ import com.example.backend.domain.store.dto.StoreCreateRequest;
 import com.example.backend.domain.store.dto.StoreResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Service
 @RequiredArgsConstructor
+@RequestMapping("/api/v1/posts/{postId}/comments")
 public class StoreCommandService {
     private final StoreCreateService storeCreateService;
     private final StoreDeleteService storeDeleteService;
