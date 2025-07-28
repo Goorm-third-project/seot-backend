@@ -6,6 +6,7 @@ import com.example.backend.domain.store.entity.Store;
 import com.example.backend.domain.store.repository.StoreRepository;
 import com.example.backend.domain.member.entity.Member;
 import com.example.backend.domain.member.repository.MemberRepository;
+import com.example.backend.domain.store.service.query.StoreQueryService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.example.backend.support.annotation.ServiceTest;
@@ -13,9 +14,9 @@ import com.example.backend.support.fixture.MemberFixture;
 import com.example.backend.support.fixture.StoreFixture;
 
 @ServiceTest
-public class StoreServiceTest {
+public class StoreQueryServiceTest {
     @Autowired
-    StoreService storeService;
+    StoreQueryService storeService;
     @Autowired
     StoreRepository storeRepository;
     @Autowired
